@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.python-version
+.env
+.venv/
+venv/
+env/
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Editors/IDEs ---
+.vscode/
+.idea/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Logs/artifacts ---
+*.log
+*.out
+
+# --- Docker odds & ends (keep Dockerfile) ---
+docker-run.out
+*.tar
+
+# --- Keep these folders but ignore their contents ---
+# (tracked via .gitkeep files below)
+data/*
+!data/.gitkeep
+output/*
+!output/.gitkeep
+script/*
+!script/.gitkeep
