@@ -37,7 +37,3 @@ docker-run.out
 # (tracked via .gitkeep files below)
 data/*
 !data/.gitkeep
-output/*
-!output/.gitkeep
-script/*
-!script/.gitkeep
