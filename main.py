@@ -8,13 +8,13 @@ from torch.optim.lr_scheduler import StepLR
 import time       # MODIFIED - included to measure per-epoch elapsed time
 
 """
-Train an MNIST model
+Train CNN on MNIST
 Author: Tai Wan Kim
 Date: November, 2025
 
 Code cloned from: https://github.com/pytorch/examples/tree/main/mnist
 Modifed for containerization and performance modeling.
-Modified segments are marked MODIFIED below.
+Modified segments are marked as MODIFIED below.
 """
 
 VERBOSE = False   # MODIFIED - added flag to turn off verbose output
