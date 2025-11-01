@@ -1,4 +1,4 @@
-# Containerize Training
+# Containerize MNIST Training
 
 Containerize MNIST training with Docker for reproducible runs and easy hyperparameter sweeps.
 
@@ -11,7 +11,7 @@ docker info
 
 2. Navigate to working directory.
 ```bash!
-cd 
+cd docker-mnist
 ```
 
 3. Build docker image
@@ -40,6 +40,9 @@ docker ps -a
 
 # Remove container
 docker rm {container_id or name}
+
+# List all images
+docker images
 
 # Remove image
 docker rmi {image_id or name}
